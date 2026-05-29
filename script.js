@@ -5,7 +5,7 @@
 // ----------------------------------------
 // 1. CUSTOM CURSOR
 // ----------------------------------------
-const cursor = document.getElementById('cursor');
+const cursor   = document.getElementById('cursor');
 const follower = document.getElementById('cursor-follower');
 
 document.addEventListener('mousemove', (e) => {
@@ -16,7 +16,6 @@ document.addEventListener('mousemove', (e) => {
     follower.style.top  = e.clientY + 'px';
   }, 80);
 });
-
 document.addEventListener('mousedown', () => {
   cursor.style.transform = 'translate(-50%, -50%) scale(1.8)';
 });
@@ -36,18 +35,16 @@ window.addEventListener('load', () => {
 // ----------------------------------------
 // 3. NAVBAR
 // ----------------------------------------
-const navbar   = document.getElementById('navbar');
+const navbar    = document.getElementById('navbar');
 const hamburger = document.getElementById('hamburger');
 const navLinks  = document.getElementById('nav-links');
 
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
-
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('open');
 });
-
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
@@ -63,7 +60,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 function initReveal() {
   document.querySelectorAll(
-    '.timeline-item, .skill-category, .cert-card'
+    '.timeline-item, .skill-category, .cert-card, .portfolio-card'
   ).forEach(el => revealObserver.observe(el));
 }
 
@@ -72,8 +69,8 @@ function initReveal() {
 // ----------------------------------------
 
 function renderHero(data) {
-  document.getElementById('hero-photo').src         = data.photo;
-  document.getElementById('hero-name').textContent  = data.name;
+  document.getElementById('hero-photo').src = data.photo;
+  document.getElementById('hero-name').textContent = data.name;
   document.getElementById('hero-title').textContent = data.title;
   document.getElementById('hero-location-text').textContent = data.location;
   document.getElementById('footer-name').textContent = '© 2026 ' + data.name;
@@ -81,7 +78,6 @@ function renderHero(data) {
 
 function renderAbout(data) {
   document.getElementById('about-summary').textContent = data.summary;
-
   document.getElementById('about-stats').innerHTML = data.stats.map(s => `
     <div class="stat-item">
       <span class="stat-number">${s.value}</span>
@@ -148,13 +144,27 @@ function renderCertifications(data) {
   `).join('');
 }
 
+function renderPortfolio(data) {
+  document.getElementById('portfolio-grid').innerHTML = data.portfolio.map(project => `
+    <div class="portfolio-card">
+      <h3 class="portfolio-name">${project.name}</h3>
+      <p class="portfolio-desc">${project.description}</p>
+      <div class="portfolio-tech">
+        ${project.tech.map(t => `<span class="portfolio-tech-tag">${t}</span>`).join('')}
+      </div>
+      <a href="${project.link}" target="_blank" class="portfolio-link">
+        <i class="fa-brands fa-github"></i> Lihat di GitHub
+      </a>
+    </div>
+  `).join('');
+}
+
 function renderContact(data) {
   const iconMap = {
     'fa-envelope' : 'fa-solid fa-envelope',
     'fa-linkedin' : 'fa-brands fa-linkedin',
     'fa-whatsapp' : 'fa-brands fa-whatsapp'
   };
-
   document.getElementById('contact-links').innerHTML = data.contact.map(item => `
     <a href="${item.href}" target="_blank" class="contact-link">
       <div class="contact-icon">
@@ -183,6 +193,7 @@ fetch('data/profile.json')
     renderSkills(data);
     renderEducation(data);
     renderCertifications(data);
+    renderPortfolio(data);
     renderContact(data);
     initReveal();
   })
