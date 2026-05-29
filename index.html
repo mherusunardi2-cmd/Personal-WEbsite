@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. Heru Sunardi — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-kanji">誠</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-text">MHS</span>
+      <span class="logo-kanji">一</span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-kanji">誠実</div>
+    <div class="hero-content">
+      <div class="hero-photo-col">
+        <div class="hero-photo-frame">
+          <img id="hero-photo" src="" alt="M. Heru Sunardi"/>
+          <div class="photo-accent"></div>
+        </div>
+        <div class="hero-stamp">供給<br/>連鎖</div>
+      </div>
+      <div class="hero-text-col">
+        <p class="hero-greeting">— こんにちは, Selamat Datang —</p>
+        <h1 id="hero-name"></h1>
+        <div class="hero-divider"><span></span></div>
+        <p class="hero-subtitle" id="hero-title"></p>
+        <p class="hero-location">
+          <i class="fa fa-location-dot"></i>
+          <span id="hero-location-text"></span>
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Hubungi Saya</a>
+          <a href="#experience" class="btn-ghost">Lihat Karir</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">
+        <span class="kanji-label">自己</span>
+        <span class="en-label">About Me</span>
+      </div>
+      <div class="about-layout">
+        <p class="about-summary" id="about-summary"></p>
+        <div class="about-stats" id="about-stats"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <div class="section-label">
+        <span class="kanji-label">経験</span>
+        <span class="en-label">Experience</span>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-label">
+        <span class="kanji-label">技術</span>
+        <span class="en-label">Skills</span>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-label">
+        <span class="kanji-label">学歴</span>
+        <span class="en-label">Education</span>
+      </div>
+      <div id="education-list"></div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-label">
+        <span class="kanji-label">資格</span>
+        <span class="en-label">Certifications</span>
+      </div>
+      <div class="cert-grid" id="cert-grid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-label">
+        <span class="kanji-label">連絡</span>
+        <span class="en-label">Contact</span>
+      </div>
+      <div class="contact-body">
+        <p class="contact-tagline">Mari terhubung dan berkolaborasi bersama.</p>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-name" id="footer-name"></p>
+    <p class="footer-ichigo">一期一会</p>
+    <p class="footer-meaning">Ichigo Ichie — Setiap pertemuan adalah kesempatan sekali seumur hidup</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
