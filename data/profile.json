@@ -1,0 +1,93 @@
+{
+  "name": "M. Heru Sunardi",
+  "title": "Supply Chain & Logistics Professional",
+  "location": "Sidoarjo, Jawa Timur",
+  "email": "mherusunardi2@gmail.com",
+  "photo": "assets/Heru1.png",
+  "summary": "Profesional di bidang Supply Chain, Logistik, dan Keuangan dengan latar belakang S1 Ekonomi Syariah. Berpengalaman dalam operasional logistik, manajemen stok, verifikasi dokumen, dan administrasi keuangan. Tersertifikasi CSCA dan BNSP dengan kompetensi kuat dalam procurement, inventory management, pembukuan, dan akuntansi terkomputerisasi.",
+  "stats": [
+    { "value": "3.57", "label": "IPK / GPA" },
+    { "value": "4+", "label": "Tahun Pengalaman" },
+    { "value": "5", "label": "Sertifikasi" },
+    { "value": "130", "label": "Duolingo English" }
+  ],
+  "experience": [
+    {
+      "title": "Staff Logistik",
+      "company": "PT. Danadipa Bertu Perkasa",
+      "period": "Mei 2026 – Sekarang",
+      "current": true,
+      "points": [
+        "Survei harga supplier, memilih material termurah sesuai spesifikasi",
+        "Mengelola gudang: penataan, labeling, pencatatan stok, laporan penggunaan",
+        "Koordinasi dengan tim lapangan terkait kebutuhan material & jadwal",
+        "Konsultasi optimalisasi proses logistik secara berkelanjutan"
+      ]
+    },
+    {
+      "title": "Guru Kelas – Matematika & Bahasa Inggris",
+      "company": "SMPIT Fathona Palembang",
+      "period": "Jun 2024 – Jun 2025",
+      "current": false,
+      "points": [
+        "Mengampu Matematika dan Bahasa Inggris dengan pendekatan pembelajaran aktif",
+        "Wali Kelas: pembinaan karakter, pemantauan kedisiplinan, pelaporan akademik",
+        "Koordinasi rutin dengan orang tua mengenai progres belajar siswa",
+        "Administrasi kelas: nilai, absensi, laporan perkembangan siswa"
+      ]
+    },
+    {
+      "title": "Checker Produksi",
+      "company": "PT Nippon Indosari Corpindo",
+      "period": "2023",
+      "current": false,
+      "points": [
+        "Pemeriksaan kualitas produk di setiap tahapan lini produksi sesuai SOP",
+        "Verifikasi kuantitas output produksi harian terhadap target",
+        "Pencatatan data produksi real-time dan laporan ketidaksesuaian",
+        "Koordinasi dengan tim QC untuk tindakan korektif"
+      ]
+    },
+    {
+      "title": "Checker Warehouse",
+      "company": "CV. Bersatu Jaya",
+      "period": "2021 – 2023",
+      "current": false,
+      "points": [
+        "Verifikasi seluruh arus barang inbound dan outbound secara real-time",
+        "Administrasi pergudangan: surat jalan, PO, berita acara penerimaan",
+        "Memastikan kesesuaian fisik barang dengan dokumen pendukung",
+        "Pelaporan discrepancy stok dan asistensi stock opname periodik"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Sarjana Ekonomi Syariah (S.E.)",
+      "institution": "STAI An Najah Indonesia Mandiri",
+      "period": "Agu 2018 – Sep 2022",
+      "gpa": "3.57 / 4.00",
+      "predicate": "Dengan Pujian (Cum Laude)",
+      "thesis": "Strategi Lembaga Keuangan Syariah dalam Menjaga Stabilitas Keuangan Selama Pandemi COVID-19"
+    }
+  ],
+  "certifications": [
+    { "name": "CSCA – Certified Supply Chain Analyst", "issuer": "Udemy", "year": "2026" },
+    { "name": "Admin Gudang Cakap Teknologi", "issuer": "Kelas.com", "year": "2026" },
+    { "name": "Bootcamp MS. Excel Specialist", "issuer": "Karir.nex", "year": "2026" },
+    { "name": "Fullstack Intensive Bootcamp Accounting, Tax & Audit", "issuer": "MySkill", "year": "2026" },
+    { "name": "Sertifikat Kompetensi BNSP: Juru Buku", "issuer": "BNSP", "year": "2023" }
+  ],
+  "skills": {
+    "Administrasi & Keuangan": ["Akuntansi Terkomputerisasi", "Pembukuan Kas", "Laporan Keuangan", "Manajemen Dokumen", "Perpajakan", "Audit & Analisis", "Budgeting"],
+    "Operasional & Logistik": ["Manajemen Stok & Inventaris", "Verifikasi Surat Jalan", "Inbound/Outbound", "Stock Opname", "Quality Control"],
+    "Procurement & Supply Chain": ["Survei Harga Supplier", "Seleksi Material", "Koordinasi Lapangan", "Demand Planning", "Inventory Control"],
+    "Teknologi & Data": ["Python Scripting & Otomasi", "AI Productivity Tools", "Microsoft Excel Intermediate", "Microsoft Office", "Analisis Data Kuantitatif"],
+    "Bahasa": ["Bahasa Indonesia (Native)", "Bahasa Inggris – Professional (Duolingo 130)"]
+  },
+  "contact": [
+    { "label": "Email", "value": "mherusunardi2@gmail.com", "href": "mailto:mherusunardi2@gmail.com", "icon": "fa-envelope" },
+    { "label": "LinkedIn", "value": "m-heru-sunardi", "href": "https://linkedin.com/in/m-heru-sunardi-2120703b1", "icon": "fa-linkedin" },
+    { "label": "WhatsApp", "value": "+62 896 0415 3524", "href": "https://wa.me/6289604153524", "icon": "fa-whatsapp" }
+  ]
+}
