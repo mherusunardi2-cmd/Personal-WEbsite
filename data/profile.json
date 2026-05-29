@@ -85,6 +85,38 @@
     "Teknologi & Data": ["Python Scripting & Otomasi", "AI Productivity Tools", "Microsoft Excel Intermediate", "Microsoft Office", "Analisis Data Kuantitatif"],
     "Bahasa": ["Bahasa Indonesia (Native)", "Bahasa Inggris – Professional (Duolingo 130)"]
   },
+  "portfolio": [
+    {
+      "name": "Mr. Heru AI Finance Bot",
+      "description": "Bot keuangan berbasis AI yang dibangun dengan Python. Mengotomasi pencatatan dan analisis keuangan menggunakan kecerdasan buatan.",
+      "tech": ["Python", "AI", "Automation"],
+      "link": "https://github.com/mherusunardi2-cmd/Mr-Heru-AI-Finance-Bot"
+    },
+    {
+      "name": "LCCC",
+      "description": "Project Python untuk otomasi dan pemrosesan data. Dibangun secara mandiri sebagai bagian dari eksplorasi programming.",
+      "tech": ["Python", "Scripting"],
+      "link": "https://github.com/mherusunardi2-cmd/LCCC"
+    },
+    {
+      "name": "Web Belajar Nihon",
+      "description": "Website belajar bahasa Jepang yang dibangun dengan HTML. Menggabungkan passion terhadap bahasa Jepang dengan skill web development.",
+      "tech": ["HTML", "CSS"],
+      "link": "https://github.com/mherusunardi2-cmd/Web-Belajar-Nihon"
+    },
+    {
+      "name": "Free Porto",
+      "description": "Project CSS untuk eksplorasi desain web dan layout modern.",
+      "tech": ["CSS", "HTML"],
+      "link": "https://github.com/mherusunardi2-cmd/Free-Porto"
+    },
+    {
+      "name": "Personal Web",
+      "description": "Website personal sebagai ruang eksplorasi web development.",
+      "tech": ["HTML", "CSS"],
+      "link": "https://github.com/mherusunardi2-cmd/Personal-Web"
+    }
+  ],
   "contact": [
     { "label": "Email", "value": "mherusunardi2@gmail.com", "href": "mailto:mherusunardi2@gmail.com", "icon": "fa-envelope" },
     { "label": "LinkedIn", "value": "m-heru-sunardi", "href": "https://linkedin.com/in/m-heru-sunardi-2120703b1", "icon": "fa-linkedin" },
